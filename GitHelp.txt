@@ -39,6 +39,13 @@ git commit -m "first lesson save"
 
 git push origin main или master
 
+5) Удаление всех изменений до коммита
+git restore .
+
+6) Удаления после git add .
+
+git reset .
+
 
 feat/register
 fix/register
