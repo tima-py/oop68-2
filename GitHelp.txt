@@ -55,6 +55,9 @@ git branch branch_name
 9) Переключение на  ветку
 git switch branch_name
 
+10) Клонинование проектов из GitHub
+git clone link_to_project
+
 
 production
 test
