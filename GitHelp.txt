@@ -39,6 +39,53 @@ git commit -m "first lesson save"
 
 git push origin main или master
 
+<<<<<<< HEAD
+5) Удаление всех изменений до коммита
+git restore .
+
+6) Удаления после git add .
+
+git reset .
+
+7) Проверка на кокой я ветке и список веток
+git branch
+
+8) Создание ветки
+git branch branch_name
+
+9) Переключение на  ветку
+git switch branch_name
+
+10) Клонинование проектов из GitHub
+git clone link_to_project
+
+
+production
+test
+        | stage
+dev
+
+feat/register
+
+-m "feat: added  register link"
+-m "fix: register logik"
+-m "HotFix: register "
+-m "update: register "
+
+# Создание вируального окружения
+py -m venv name_venv
+python -m venv name_venv
+python3 -m venv name_venv
+
+
+# Активация виртуального окружения
+source name_venv/bin/activate      для  MacOS
+name_venv\Scripts\activate     для Windows в терминале comond prompt
+source name_venv/Scripts/activate   для Windows в терминале Git Bash
+
+
+=======
 
 feat/register
 fix/register
+>>>>>>> 4276146f0572d1ce6a99c28a2cdd6a2abc17ca24

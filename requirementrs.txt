@@ -1,0 +1,8 @@
+certifi==2026.6.17
+charset-normalizer==3.4.9
+colorama==0.4.6
+Faker==40.32.0
+idna==3.18
+requests==2.34.2
+tzdata==2026.3
+urllib3==2.7.0
