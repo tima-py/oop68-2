@@ -1,9 +1,5 @@
 .idea
 .venv
 venv
-<<<<<<< HEAD
 __pycache__
 name_venv
-=======
-__pycache__
->>>>>>> 4276146f0572d1ce6a99c28a2cdd6a2abc17ca24
