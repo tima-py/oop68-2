@@ -13,6 +13,18 @@
 #     def base_action(self):
 #         return f"thi base action {self.hero_name}"
 
+class Hero:
+    # Конструктор класса
+    def __init__(self, name, hp, lvl):
+        # Атрибуты экземпляра класса
+        self.hero_name = name
+        self.hero_hp = hp
+        self.hero_lvl = lvl
+
+    # Метод класса
+    def base_action(self):
+        return f"thi base action {self.hero_name}"
+
 # Объект|Экземпляр класса
 kirito = Hero("Kirito", 1000, 100)
 asuna = Hero("Asuna", 1200, 110)
@@ -28,9 +40,3 @@ print(kirito.base_action())
 print(asuna.base_action())
 # print(type(my_int))
 # print(type(asuna))
-
-dasdasd
-das
-defas
-
-

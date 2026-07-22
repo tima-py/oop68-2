@@ -39,6 +39,7 @@ git commit -m "first lesson save"
 
 git push origin main или master
 
+<<<<<<< HEAD
 5) Удаление всех изменений до коммита
 git restore .
 
@@ -83,3 +84,8 @@ name_venv\Scripts\activate     для Windows в терминале comond promp
 source name_venv/Scripts/activate   для Windows в терминале Git Bash
 
 
+=======
+
+feat/register
+fix/register
+>>>>>>> 4276146f0572d1ce6a99c28a2cdd6a2abc17ca24
